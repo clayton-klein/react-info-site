@@ -1,5 +1,18 @@
 import React from "react";
+import "../styles/base.css";
+import "../styles/Main.css";
 
 export default function Main() {
-  return <h1>Main here</h1>;
+  return (
+    <main>
+      <h3 className="main__title">Fun facts about React</h3>
+      <ul className="main__list">
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Has well over 100K stars on GitHub</li>
+        <li>Is maintained by Facebook</li>
+        <li>Powers thousands of enterprise apps, including mobile apps</li>
+      </ul>
+    </main>
+  );
 }
